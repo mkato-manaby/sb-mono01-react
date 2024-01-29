@@ -1,11 +1,13 @@
-import React from 'react';
-import './style.css';
+// App.js
 
-export default function App() {
+import './App.css';
+
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="App">
+      
     </div>
   );
 }
+
+export default App;
