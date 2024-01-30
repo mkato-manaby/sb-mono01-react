@@ -3,7 +3,6 @@
 const Card = (props) => {
     return (
         <div>
-            
             {props.allCountriesData.map((singleData, index) =>
             <div key={index}>
                 <h2>{singleData.Country}</h2>
