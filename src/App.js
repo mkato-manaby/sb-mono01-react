@@ -8,7 +8,7 @@ import WorldPage from "./pages/WorldPage";
 import "./App.css";
 
 function App() {
-  const [Loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [country, setCountry] = useState("");
   const [countryData, setCountryData] = useState({
     date: "",
