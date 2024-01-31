@@ -3,9 +3,9 @@
 import { useState, useEffect } from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import countriesJson from "./countries.json";
-import TopPage from './pages/TopPage';
+import TopPage from "./pages/TopPage";
 import WorldPage from "./pages/WorldPage";
-import './App.css';
+import "./App.css";
 
 function App() {
   const [country, setCountry] = useState("");
