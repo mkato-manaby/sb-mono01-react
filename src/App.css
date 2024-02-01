@@ -98,6 +98,10 @@ h1 {
   cursor: pointer;
 }
 
+.selector-container>select>option {
+  color: #333;
+}
+
 .selector-container>button {
   width: 98px;
   height: 27px;
