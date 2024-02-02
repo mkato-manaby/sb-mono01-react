@@ -75,6 +75,10 @@ h1 {
   color: #fff;
 }
 
+h1+p {
+  text-align: center;
+}
+
 /* Selector */
 .selector-container {
   position: relative;
@@ -201,6 +205,11 @@ h1 {
     line-height: 3.5rem;
   }
 
+  h1+p {
+    margin-top: 0.2rem;
+    font-size: 1.3rem;
+  }
+
   .selector-container {
     width: 290px;
     margin: 2rem 0;
@@ -217,10 +226,16 @@ h1 {
 
   .results-container {
     width: 270px;
+    padding-top: 2rem;
   }
 
   .results-container p span {
     font-size: 3rem;
+  }
+
+  .results-container p:first-child span {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
